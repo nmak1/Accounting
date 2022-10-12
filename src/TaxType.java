@@ -1,6 +1,8 @@
-    class TaxType {
-        public double calculateTaxFor(double amount) {
+import java.math.BigDecimal;
+
+class TaxType {
+        public BigDecimal calculateTaxFor(BigDecimal bigDecimal) {
             // TODO override me!
-            return 0.0;
+            return bigDecimal;
         }
 }
